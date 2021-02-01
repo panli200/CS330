@@ -1,2 +1,2 @@
-# CS330
+# CS330 Lab
 Operating System
