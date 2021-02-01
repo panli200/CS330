@@ -1,0 +1,36 @@
+Script started on Mon 28 Sep 2020 11:30:00 AM CST
+a049854[7]% make clean
+rm -f *.o demo core.* vgcore.*
+a049854[8]% make
+g++ -c -ggdb main.cpp
+g++ -c -ggdb HALmod.cpp
+g++ main.o HALmod.o -o demo
+a049854[9]% valgrind --leak-check=yes ./demo
+==28699== Memcheck, a memory error detector
+==28699== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==28699== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==28699== Command: ./demo
+==28699== 
+HALshell> Thi  s is a test
+The words in reverse are: test a is This 
+HALshell> to see what happens
+The words in reverse are: happens what see to 
+HALshell> It is a success
+The words in reverse are: success a is It 
+HALshell> lo
+The words in reverse are: lo 
+
+HALshell: terminating ...
+==28699== 
+==28699== HEAP SUMMARY:
+==28699==     in use at exit: 0 bytes in 0 blocks
+==28699==   total heap usage: 46 allocs, 46 frees, 992 bytes allocated
+==28699== 
+==28699== All heap blocks were freed -- no leaks are possible
+==28699== 
+==28699== For counts of detected and suppressed errors, rerun with: -v
+==28699== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+a049854[10]% exit
+exit
+
+Script done on Mon 28 Sep 2020 11:30:56 AM CST

@@ -1,0 +1,22 @@
+Script started on Sat 03 Oct 2020 11:12:35 AM CST
+a049854[21]% make
+g++ -c -ggdb main.cpp
+g++ -c -ggdb HALmod.cpp
+g++ main.o HALmod.o -o demo
+a049854[22]% ./demo
+HALshell> pwd
+/home/hercules/p/panli200/cs330/lab4
+HALshell> ls
+demo  HALmod.cpp  HALmod.h  HALmod.o  main.cpp	main.o	Makefile  myscript
+HALshell> cp main.cpp main.bak
+HALshell> ls
+demo  HALmod.cpp  HALmod.h  HALmod.o  main.bak	main.cpp  main.o  Makefile  myscript
+HALshell> exit
+Error under CHILD process
+HALshell> lo
+
+HALshell: terminating ...
+a049854[23]% exit
+exit
+
+Script done on Sat 03 Oct 2020 11:13:11 AM CST

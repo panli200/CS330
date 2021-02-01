@@ -1,0 +1,46 @@
+Script started on Sat Sep 12 10:39:10 2020
+Script on hercules[9]% exitcd[K testscript[24Gls[Kmkdir testscript[24Gcd ..[Kcs330[24G[3@mkdir[35G[K[K[K[K[K[K[K[K[K[Kcs_clie[K[Kientss[K CL115
+a049831 a049832 a049833 a049834 a049835 a049836 a049837 a049838 a049839 a049840 a049841 a049842 a049843 a049844 a049845 a049846 a049847 a049848 a049849 a049850 a049851 a049852 a049854 a049856 
+Script on hercules[10]% ssh a049854
+panli200@a049854's password: 
+Last login: Sat Sep 12 10:35:56 2020 from hercules.cs.uregina.ca
+Log in at: Sat Sep 12 10:40:10 CST 2020
+
+a049854[9]% mki[Kdir cs330
+a049854[10]% cd cs330
+a049854[11]% mkdir testscript
+a049854[12]% cd tesx[Ktscript
+a049854[13]% mkdir good
+a049854[14]% mkdir bad
+a049854[15]% mkdir ugly
+a049854[16]% pwd
+/home/hercules/p/panli200/cs330/testscript
+a049854[17]% cd good
+a049854[18]% touch good[K[K[K[K[K[K[K[K[Ktouch one
+a049854[19]% touch two
+a049854[20]% touch three
+a049854[21]% ls -l
+total 0
+-rw------- 1 panli200 csugrd 0 Sep 12 10:47 one
+-rw------- 1 panli200 csugrd 0 Sep 12 10:47 three
+-rw------- 1 panli200 csugrd 0 Sep 12 10:47 two
+a049854[22]% mkdir BAK
+a049854[23]% cp three BAK/three.bak
+a049854[24]% cd BAK
+a049854[25]% ls -l
+total 0
+-rw------- 1 panli200 csugrd 0 Sep 12 10:48 three.bak
+a049854[26]% cd ..
+a049854[27]% cp -r BAK ugly
+a049854[28]% ls ugly/
+three.bak
+a049854[29]% rm -r BAK
+a049854[30]% rm -r BAK[14Gls ugly/[K[14Gcp -r BAK ugly[15Gd ..[K[14Gls -l[14Gcd BAK[15Gp three BAK/three.bak[14Gmkdir BAK[K[14Gtouch threewo[Kone[14Gcd good[K[14Gpwd[K[K[K[Kexit
+logout
+[3;J[H[2JLogged out on: Sat Sep 12 10:54:39 CST 2020
+
+Connection to a049854 closed.
+Script on hercules[11]% exit
+exit
+
+Script done on Sat Sep 12 10:54:45 2020

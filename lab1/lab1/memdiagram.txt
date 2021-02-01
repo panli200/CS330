@@ -1,0 +1,49 @@
+/*
+       +------------------+
+       |  TEXT            | x10000?
+       |                  |
+       |  instructions in | x10b10 = proc1
+       |  machine code    | x10be8 = proc2
+       |                  |
+       +------------------+ x11489 = etext
+       |  DATA            | x21698 = g1   global initialized
+       |  - initialized   | x2169c = g3
+       |    variables     | x216a0 = ls1  static initialized
+       |                  | x216a4 = ls3
+       |                  | 
+       | ---------------  | x216a8 = edata
+       |                  | x216a8 = g0   global uninitialized
+       |                  | x216ac = g2   big array 
+       |                  | x226b0 = g4
+       |  - uninitialized | x216b8 = ls0  static uninitialized
+       |    variables     | x216bc = ls2
+       |                  |
+       |                  | 
+       | ---------------  | x22668 = end 
+       |  - heap for      | x22670 pointed to by heap1
+       |  dynamic         | x22680 pointed to by heap2
+       |  allocation      |
+       |                  |
+       |                  |
+       +------------------+ 
+                |
+                |
+                V
+
+                .
+                .
+                .
+
+                ^
+                |
+                |
+       +------------------+
+       |  STACK           | xffbef804 = lc4, lc6   | Activation record for 
+       |  - function      | xffbef808 = lc3, lc5   | proc1 or proc2
+       |    activation    |
+       |    records       |
+       |  - local         | xffbe2878 = lc2       | Activation record for
+       |    automatic     | xffbe287c = lc1       | main
+       |    variables     | xffbe2880 = lc0       |
+       +------------------+
+*/

@@ -1,0 +1,53 @@
+Script started on Sun 22 Nov 2020 07:53:31 PM CST
+a049854[21]% g++ Signal.cpp -o signal
+a049854[22]% ./signal
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+child waiting
+
+parent waiting
+Signal received 5 
+parent waiting
+
+parent waiting
+Child received signal
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+parent waiting
+
+Signal received 17 
+
+Parent received signal
+a049854[23]% exit
+exit
+
+Script done on Sun 22 Nov 2020 07:53:51 PM CST

@@ -1,0 +1,50 @@
+// Place the following picture as a comment at the beginning of 
+// your factorial code file.
+
+// Add the significant addresses to diagram to the right of the boxes.
+// The first address of the READONLY "TEXT" segment, x400200, 
+// i.e., 400200 hex, is shown.
+// Add edata, end, and the names of the variables to right as well.
+// As an example, etext is shown.  Fill in its address.
+       
+//       +------------------+
+//       |  TEXT            | x400200
+//       |                  |
+//       |  instructions in |
+//       |  machine code    |
+//       |                  |
+//       +------------------+ x???????? = etext
+//       |  DATA            | 
+//       |  - initialized   |
+//       |    variables     |
+//       | ---------------  |
+//       |  - uninitialized |
+//       |    variables     |
+//       |                  |
+//       | ---------------  | 
+//       |  - heap for      |
+//       |  dynamic         |
+//       |  allocation      |
+//       |                  |
+//       |                  |
+//       +------------------+ 
+//                |
+//                |
+//                V
+//
+//                .
+//                .
+//                .
+//
+//                ^
+//                |
+//                |
+//       +------------------+
+//       |  STACK           |
+//       |  - function      |
+//       |    activation    |
+//       |    records       |
+//       |  - local         |
+//       |    automatic     |
+//       |    variables     |
+//       +------------------+

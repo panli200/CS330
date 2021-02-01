@@ -1,0 +1,95 @@
+Script started on Mon 19 Oct 2020 10:02:50 AM CST
+a049854[21]% exit./exercise[14Gg++ exercise.cpp -o exercise -pthread
+a049854[22]% g++ exercise.cpp -o exercise -pthread[14Gexit[K./exercise
+TID: CD51700 PID: 16071 Buffer: A 
+TID: CD51700 PID: 16071 Buffer: B 
+TID: CD51700 PID: 16071 Buffer: C 
+TID: CD51700 PID: 16071 Buffer: D 
+TID: CD51700 PID: 16071 Buffer: E 
+TID: CD51700 PID: 16071 Buffer: F 
+TID: CD51700 PID: 16071 Buffer: G 
+TID: CD51700 PID: 16071 Buffer: H 
+TID: CD51700 PID: 16071 Buffer: I 
+TID: CD51700 PID: 16071 Buffer: J 
+TID: CD51700 PID: 16071 Buffer: K 
+TID: CD51700 PID: 16071 Buffer: L 
+TID: CD51700 PID: 16071 Buffer: M 
+TID: CD51700 PID: 16071 Buffer: N 
+TID: CD51700 PID: 16071 Buffer: O 
+TID: CD51700 PID: 16071 Buffer: P 
+TID: CD51700 PID: 16071 Buffer: Q 
+TID: CD51700 PID: 16071 Buffer: R 
+TID: CD51700 PID: 16071 Buffer: S 
+TID: CD51700 PID: 16071 Buffer: T 
+TID: CD51700 PID: 16071 Buffer: U 
+TID: CD51700 PID: 16071 Buffer: V 
+TID: CD51700 PID: 16071 Buffer: W 
+TID: CD51700 PID: 16071 Buffer: X 
+TID: CD51700 worked on the buffer 24 times
+TID: C550700 worked on the buffer 0 times
+TID: BD4F700 worked on the buffer 0 times
+Total buffer accesses:24 
+a049854[23]% ./exercise[14Gg++ exercise.cpp -o exercise -pthread
+a049854[24]% g++ exercise.cpp -o exercise -pthread[14G./exercise[K
+TID: 283C2700 PID: 16090 Buffer: A 
+TID: 27BC1700 PID: 16090 Buffer: B 
+TID: 283C2700 PID: 16090 Buffer: C 
+TID: 273C0700 PID: 16090 Buffer: D 
+TID: 27BC1700 PID: 16090 Buffer: E 
+TID: 283C2700 PID: 16090 Buffer: F 
+TID: 27BC1700 PID: 16090 Buffer: G 
+TID: 283C2700 PID: 16090 Buffer: H 
+TID: 27BC1700 PID: 16090 Buffer: I 
+TID: 283C2700 PID: 16090 Buffer: J 
+TID: 273C0700 PID: 16090 Buffer: K 
+TID: 27BC1700 PID: 16090 Buffer: L 
+TID: 283C2700 PID: 16090 Buffer: M 
+TID: 273C0700 PID: 16090 Buffer: N 
+TID: 27BC1700 PID: 16090 Buffer: O 
+TID: 283C2700 PID: 16090 Buffer: P 
+TID: 273C0700 PID: 16090 Buffer: Q 
+TID: 27BC1700 PID: 16090 Buffer: R 
+TID: 273C0700 PID: 16090 Buffer: S 
+TID: 283C2700 PID: 16090 Buffer: T 
+TID: 273C0700 PID: 16090 Buffer: U 
+TID: 283C2700 PID: 16090 Buffer: V 
+TID: 273C0700 PID: 16090 Buffer: W 
+TID: 283C2700 PID: 16090 Buffer: X 
+TID: 283C2700 worked on the buffer 10 times
+TID: 27BC1700 worked on the buffer 7 times
+TID: 273C0700 worked on the buffer 7 times
+Total buffer accesses:24 
+a049854[25]% ./exercise[14Gg++ exercise.cpp -o exercise -pthread
+a049854[26]% g++ exercise.cpp -o exercise -pthread[14G./exercise[K
+TID: FB123700 PID: 16125 Buffer: A 
+TID: FA121700 PID: 16125 Buffer: B 
+TID: FA922700 PID: 16125 Buffer: C 
+TID: FB123700 PID: 16125 Buffer: D 
+TID: FA121700 PID: 16125 Buffer: E 
+TID: FA922700 PID: 16125 Buffer: F 
+TID: FB123700 PID: 16125 Buffer: G 
+TID: FA121700 PID: 16125 Buffer: H 
+TID: FA922700 PID: 16125 Buffer: I 
+TID: FA121700 PID: 16125 Buffer: J 
+TID: FB123700 PID: 16125 Buffer: K 
+TID: FA922700 PID: 16125 Buffer: L 
+TID: FB123700 PID: 16125 Buffer: M 
+TID: FA121700 PID: 16125 Buffer: N 
+TID: FA922700 PID: 16125 Buffer: O 
+TID: FA121700 PID: 16125 Buffer: P 
+TID: FB123700 PID: 16125 Buffer: Q 
+TID: FA922700 PID: 16125 Buffer: R 
+TID: FB123700 PID: 16125 Buffer: S 
+TID: FA121700 PID: 16125 Buffer: T 
+TID: FA922700 PID: 16125 Buffer: U 
+TID: FB123700 PID: 16125 Buffer: V 
+TID: FA121700 PID: 16125 Buffer: W 
+TID: FA922700 PID: 16125 Buffer: X 
+TID: FB123700 worked on the buffer 8 times
+TID: FA922700 worked on the buffer 8 times
+TID: FA121700 worked on the buffer 8 times
+Total buffer accesses:24 
+a049854[27]% exit
+exit
+
+Script done on Mon 19 Oct 2020 10:04:02 AM CST

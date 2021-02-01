@@ -1,0 +1,40 @@
+Script started on Sun 11 Oct 2020 04:31:12 PM CST
+a049854[21]% make
+g++ -c -ggdb main.cpp
+g++ main.o  -o myIO
+a049854[22]% ls -l
+total 40
+-rw------- 1 panli200 csugrd  2114 Oct 11 00:17 main.cpp
+-rw------- 1 panli200 csugrd 12552 Oct 11 16:31 main.o
+-rw------- 1 panli200 csugrd   497 Oct 10 20:13 Makefile
+-rwx------ 1 panli200 csugrd 14496 Oct 11 16:31 [0m[38;5;34mmyIO[0m*
+-rw------- 1 panli200 csugrd     0 Oct 11 16:31 myscript
+a049854[23]% myIO
+Error: Not enough argument.
+a049854[24]% myIO file.txt
+
+outFile = 3 	 errno = 0
+Write to the file:I like CS330
+
+inFile = 3 	 errno = 0
+Read the file under Parent Process: 
+I like CS330
+a049854[25]% ls -l
+total 44
+-rw------- 1 panli200 csugrd    13 Oct 11 16:31 file.txt
+-rw------- 1 panli200 csugrd  2114 Oct 11 00:17 main.cpp
+-rw------- 1 panli200 csugrd 12552 Oct 11 16:31 main.o
+-rw------- 1 panli200 csugrd   497 Oct 10 20:13 Makefile
+-rwx------ 1 panli200 csugrd 14496 Oct 11 16:31 [0m[38;5;34mmyIO[0m*
+-rw------- 1 panli200 csugrd     0 Oct 11 16:31 myscript
+a049854[26]% cat file.txt
+I like CS330
+a049854[27]% myIO /file.txt
+
+outFile = -1 	 errno = 13
+
+inFile = -1 	 errno = 2
+a049854[28]% exit
+exit
+
+Script done on Sun 11 Oct 2020 04:32:37 PM CST

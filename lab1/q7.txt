@@ -1,0 +1,11 @@
+Script started on Sat Sep 12 13:54:18 2020
+Script on hercules[21]% exitrm -r BAK[25Gls ugly/[K[25Gcp -r BAK ugly[K[K[K[K[K[K[K[K[K[K[K./lab1output
+Please enter an integer:5
+Factorial 5 = 120 
+Script on hercules[22]% ./lab1output
+Please enter an integer:3
+Factorial 3 = 6 
+Script on hercules[23]% exit
+exit
+
+Script done on Sat Sep 12 13:54:56 2020

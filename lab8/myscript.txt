@@ -1,0 +1,9 @@
+Script started on Sat 31 Oct 2020 12:56:13 PM CST
+a049854[21]% exitcat new file.txt[14Gpipes[K[14G./pc[Kgcc PC.c -o pc -pthread[14G./pc[Kpipes[14Gcat new file.txt[14Gexit[K[Kexitcat new file.txt[14Gpipes[K[14G./pc[Kgcc PC.c -o pc -pthread[14G./good[K[14Ggcc goodcnt.c -o good -pthread[14G./bad[K[14Ggcc badcnt.c -o bad -pthread[14G./exercise[K[14Gg++ exercise.cpp -o exercise -pthread[14GmyIO /file.txt[K[14G[2Pcat [26G[14Gls -l[K[14GmyIO file.txt[18G[Kake clean[14Gls[Kks[K[Kgcc -o[K[Kpipes.cpp -o pipes
+a049854[22]% gcc pipes.cpp -o pipes[14Gexit[K[K[K[K[K./pipes
+a049854[23]% cat newfile.txt
+5
+a049854[24]% exit
+exit
+
+Script done on Sat 31 Oct 2020 12:57:09 PM CST
